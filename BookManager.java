@@ -32,7 +32,6 @@ public class BookManager implements BookOperations {
             bookToUpdate.setYear(newBook.getYear());
         }
     }
-
     @Override
     public List<Book> getBooks() {
         return new ArrayList<>(books);

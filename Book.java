@@ -55,7 +55,6 @@ public class Book {
                Objects.equals(author, book.author) && 
                Objects.equals(isbn, book.isbn);
     }
-
     @Override //M.do generowania kodu hash na podstawie wartości pól
     public int hashCode() {
         return Objects.hash(title, author, isbn, year);

@@ -37,7 +37,6 @@ public class Main {
             }
         }
     }
-
     private static List<Book> initialBooks() {
         List<Book> books = new ArrayList<>();
         books.add(new Book("The Silent Patient", "Alex Michaelides", "978-1250301697", 2019));
